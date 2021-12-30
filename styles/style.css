@@ -1,31 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
 .page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
+
+  min-width: 1100px;
+  max-width: 1600px;
+
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #000;
+}
+
+.logo {
+  width: 183px;
+  height: 32px;
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+  position: relative;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+
+  z-index: 1;
+}
+
+.header__title {
+  margin-left: 64px;
+  max-width: 730px;
+
+  font-size: 102px;
+  font-weight: bold;
+  line-height: 96px;
+
+  z-index: 1;
+}
+
+.header__subtitle {
+  max-width: 388px;
+
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+
+  z-index: 1;
+
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  z-index: 1;
+}
+
 .header__square-pic {
-  height: 568px;
   width: 568px;
+  height: 568px;
+
+  position: absolute;
+  top: 64px;
+  right: 0;
+
+  background:  #2f80ed;
 }
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
-  width: 200px;
-  color: white;
   margin-right: 0;
   margin-top: 80px;
+
+  width: 200px;
+
+  color: white;
 }
