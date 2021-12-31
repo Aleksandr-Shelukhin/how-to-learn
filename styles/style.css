@@ -29,6 +29,9 @@ a {
   height: 32px;
 }
 
+/* Header
+======================= */
+
 .header {
   height: 100vh;
   min-height: 600px;
@@ -97,6 +100,71 @@ a {
 
   background:  #2f80ed;
 }
+
+/* Description
+======================= */
+
+.description {
+  padding: 100px 0;
+}
+
+.two-colums {
+  margin: 0 auto;
+
+  width: 80%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-colums__brief {
+  width: 175px;
+
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #2f80ed;
+}
+
+.two-colums__main-text {
+  min-width: 784px;
+  width: 80%;
+}
+
+.two-colums__paragraph {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+}
+
+.two-colums__paragraph:nth-child(2n) {
+  margin: 30px 0;
+}
+
+.two-colums__span-accent {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
