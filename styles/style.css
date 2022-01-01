@@ -83,6 +83,10 @@ a {
 
 }
 
+.header__link:hover {
+  text-decoration: underline;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -208,9 +212,52 @@ a {
   font-weight: normal;
 }
 
+/* Feynman
+======================= */
 
+.feynman {
+  height: 890px;
 
+  position: relative;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  background: url(../images/feynman.png) no-repeat left bottom;
+}
+
+.feynman__title {
+  margin-top: 100px;
+
+  width: 648px;
+
+  font-size: 120px;
+  line-height: 1.15;
+  font-weight: bold;
+  text-align: center;
+}
+
+.feynman__subtitle {
+  margin-top: 70px;
+
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 45px;
+
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+  text-align: center;
+}
 
 
 
