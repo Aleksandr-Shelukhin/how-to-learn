@@ -380,6 +380,9 @@ a {
 }
 
 .footer__column-link {
+  display: flex;
+  align-items: center;
+  
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
