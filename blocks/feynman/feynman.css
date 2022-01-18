@@ -9,4 +9,6 @@
   align-items: center;
 
   background:#f2f2f2 url(../../images/feynman.png) no-repeat left bottom;
+
+z-index: 1;
 }
