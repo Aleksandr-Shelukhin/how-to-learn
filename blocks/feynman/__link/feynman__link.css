@@ -8,9 +8,6 @@
   font-weight: normal;
   text-align: center;
   text-decoration: none;
-  color: #2f80ed;
+  color: var(--link-color);
 }
 
-.feynman__link:hover {
-  text-decoration: underline;
-}

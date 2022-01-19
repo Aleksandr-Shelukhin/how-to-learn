@@ -8,7 +8,7 @@
   justify-content: start;
   align-items: center;
 
-  background:#f2f2f2 url(../../images/feynman.png) no-repeat left bottom;
+  background: var(--bg-color-light) url(../../images/feynman.png) no-repeat left bottom;
 
-z-index: 1;
+  z-index: 1;
 }
